@@ -1,0 +1,50 @@
+.text1{
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  
+  .main{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100%;
+  color: white;
+  }
+  
+  .get{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 75%;
+  }
+  
+  a{
+    text-decoration: none;
+    text-decoration-color: white;
+  }
+  .text1{
+    margin-top: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+  }
+  .user{
+    float: right;
+  }
+   
+  .logout{
+   float: right;
+  }
+
+  .background{
+    --background: url(../../assets/crazy.jpg) 0 0/100% 100% no-repeat;
+  }
+
+
+  .head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+  }
+
+  .logout{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+  }

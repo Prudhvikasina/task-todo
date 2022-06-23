@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.people.task.list",
+	"appName": "ionic-firebase-authentication",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
