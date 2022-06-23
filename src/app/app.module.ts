@@ -16,9 +16,12 @@ import { environment } from '../environments/environment';
 import { RegComponent } from './reg/reg.component';
 import { BoardComponent } from './board/board.component';
 import { WeluserComponent } from './weluser/weluser.component';
+import { MapsComponent } from './maps/maps.component';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({
-  declarations: [AppComponent,RegComponent,BoardComponent,WeluserComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  declarations: [AppComponent,RegComponent,BoardComponent,WeluserComponent,MapsComponent],
   entryComponents: [],
   imports: [
     BrowserModule,

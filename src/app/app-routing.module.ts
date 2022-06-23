@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { BoardComponent } from './board/board.component';
+import { MapsComponent } from './maps/maps.component';
 import { RegComponent } from './reg/reg.component';
 import { WeluserComponent } from './weluser/weluser.component';
 
@@ -38,10 +39,12 @@ const routes: Routes = [
   
   {path: 'weluser',component:WeluserComponent},
   {path: 'board',component:BoardComponent},
+  {path: 'maps',component:MapsComponent},
 ];
 
 @NgModule({
   imports: [
+    
     RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
   ],
   exports: [RouterModule]
