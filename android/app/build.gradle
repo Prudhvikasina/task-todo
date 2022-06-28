@@ -29,6 +29,10 @@ repositories {
     }
 }
 
+ext {
+  googlePlayVersion = "17.0.0"
+}
+
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
@@ -49,6 +53,8 @@ dependencies {
     implementation 'com.facebook.fresco:webpsupport:2.0.0'
     implementation 'com.facebook.fresco:animated-webp:2.0.0'
     implementation 'com.facebook.fresco:animated-base:2.0.0'
+     implementation "com.google.android.gms:play-services-maps:$googlePlayVersion"
+  implementation "com.google.android.gms:play-services-location:$googlePlayVersion"
 }
 
 apply from: 'capacitor.build.gradle'
